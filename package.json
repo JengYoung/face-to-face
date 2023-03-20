@@ -1,0 +1,12 @@
+{
+  "name": "face-to-face",
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev:server": "yarn workspace server start:dev",
+    "dev:client": "yarn workspace client dev"
+  }
+}

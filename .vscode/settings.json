@@ -1,0 +1,9 @@
+{
+  "eslint.workingDirectories": [
+    "./client",
+    "./server"
+  ],
+  "search.exclude": {
+    "**/.yarn": true
+  }
+}
